@@ -1,0 +1,20 @@
+{
+  "name": "clicky-keyboard",
+  "version": "0.1.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager . clicky-keyboard --out=dist/win --platform=win32 --arch=x64 --icon=images/enter.ico --executable-name=Clicky-Keyboard --asar --overwrite"
+  },
+  "author": "Mahesh Khanal",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.7",
+    "electron-reload": "^1.2.5"
+  },
+  "dependencies": {
+    "gkm": "^0.2.0"
+  }
+}
